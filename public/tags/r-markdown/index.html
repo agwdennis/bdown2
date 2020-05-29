@@ -1,124 +1,398 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Liva | Personal blog template</title>
 
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is meta description">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.65.1" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="/images/favicon.png " type="image/x-icon">
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
     
-    
-    <title>R Markdown · My New Hugo Site</title>
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="/"><img class="img-fluid"
+          src="/images/logo.png" alt="Liva | Personal blog template"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
 
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
 
-    
-    <link rel="stylesheet" href="/style.main.min.5ea2f07be7e07e221a7112a3095b89d049b96c48b831f16f1015bf2d95d914e5.css" />
+        <a class="navbar-brand mx-auto desktop-view" href="/"><img class="img-fluid"
+            src="/images/logo.png" alt="Liva | Personal blog template"></a>
 
-</head>
-<body class=" tag-template  ">
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
 
-    <div class="site-wrapper">
-
-<header class="site-header"><div class="outer site-nav-main">
-    <div class="inner"><nav class="site-nav">
-    <div class="site-nav-left">
         
-            <a class="site-nav-logo" href="/">My New Hugo Site</a>
-        
-        
-        <div class="site-nav-content">
-            <ul class="nav" role="menu">
-                
-            </ul>
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
         </div>
         
-    </div>
-</nav>
 
-</div>
-</div>
-    <div class="outer site-header-background no-image">
-
-<div class="inner site-header-content">
-            <h1 class="site-title">R Markdown</h1>
-            <h2 class="site-description">
-                
-                    A collection of 1 post
-                
-            </h2>
-        </div>
-    </div>
+        
+      </div>
+    </nav>
+  </div>
 </header>
+<!-- /navigation -->
 
-<main id="site-main" class="site-main outer">
-    <div class="inner posts">
-        <div class="post-feed">
-            <article class="post-card post
- no-image
- ">
 
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mb-5 mb-lg-0">
+        <div class="row">
+          
+          
+          <div class="col-md-6 mb-4">
+    <article class="card">
         
-    
-        <div class="post-card-content">
-    
-            <a class="post-card-content-link" href="/post/2015-07-23-r-rmarkdown/">
-    
-                <header class="post-card-header">
-                    
-                        
-                        <div class="post-card-primary-tag">R Markdown</div>
-                    
-
-                    <h2 class="post-card-title">Hello R Markdown</h2>
-                </header>
-    
-                <section class="post-card-excerpt">
-                    <p>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</p>
-                </section>
-    
-            </a>
-
-            <footer class="post-card-meta">
-                    <ul class="author-list">
-                        <li class="author-list-item">
-                            <div class="author-name-tooltip">Frida Gomam</div>
-                            <a href="https://test.com" class="static-avatar author-profile-image"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M3.513 18.998C4.749 15.504 8.082 13 12 13s7.251 2.504 8.487 5.998C18.47 21.442 15.417 23 12 23s-6.47-1.558-8.487-4.002zM12 12c2.21 0 4-2.79 4-5s-1.79-4-4-4-4 1.79-4 4 1.79 5 4 5z" fill="#FFF"/></g></svg></a>
-                        </li>
-                    </ul>
-                    <div class="post-card-byline-content">
-                        <span>Frida Gomam</span>
-                        <span class="post-card-byline-date"><time datetime="2015-97-07">23 July 2015</time>
-                            <span class="bull">&bull;</span> 1 min read</span>
-                    </div>
-                </footer>
-    
+        <div class="card-body px-0">
+        
+        <a href="/categories/r"
+            class="text-primary">R</a>
+        
+        <a href="/blog/2015-07-23-r-rmarkdown/" class="h5 d-block my-3">Hello R Markdown</a>
+        <div class="mb-3 post-meta">
+            <span>By Themefisher</span>
+            
+            <span class="border-bottom border-primary px-2 mx-1"></span>
+            <span>23 July 2015</span>
+            
         </div>
-
-</article>
-    
+        <p class="card-text">R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.</p>
+        <a href="/blog/2015-07-23-r-rmarkdown/" class="btn btn-outline-primary">read more</a>
         </div>
+    </article>
+</div>
+          
+        </div>
+      </div>
+      
+      <div class="col-lg-4">
+  
+  <div class="widget">
+    
+    <h4 class="widget-title">About Me</h4>
+    
+    <img src="/images/author.jpg" alt=""
+      class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
+    
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+    <a href="/about/" class="btn btn-outline-primary">Know More</a>
+    
+  </div>
+  
+  <div class="widget">
+    <h4 class="widget-title">Category</h4>
+    <ul class="list-unstyled">
+      <li><a
+          href="/categories/android-and-gmaing">Android and gmaing</a>
+      </li>
+      <li><a
+          href="/categories/go-language">Go language</a>
+      </li>
+      <li><a
+          href="/categories/html">Html</a>
+      </li>
+      <li><a
+          href="/categories/html-css">Html css</a>
+      </li>
+      <li><a
+          href="/categories/programming-language">Programming language</a>
+      </li>
+      <li><a
+          href="/categories/python">Python</a>
+      </li>
+      <li><a
+          href="/categories/r">R</a>
+      </li>
+      <li><a
+          href="/categories/web-design">Web design</a>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="widget">
+    <h4 class="widget-title">Tag</h4>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/game">Game</a></li>
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/html">Html</a></li>
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/new">New</a></li>
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/photos">Photos</a></li>
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/plot">Plot</a></li>
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/python">Python</a></li>
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/r-markdown">R markdown</a></li>
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/react">React</a></li>
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="/tags/regression">Regression</a></li>
+    </ul>
+  </div>
+  
+  <div class="widget">
+    <h4 class="widget-title">Social</h4>
+    <ul class="list-inline social-links">
+      
+      <li class="list-inline-item"><a href="#"><i class="ti-facebook"></i></a></li>
+      
+      <li class="list-inline-item"><a href="#"><i class="ti-twitter-alt"></i></a></li>
+      
+      <li class="list-inline-item"><a href="#"><i class="ti-instagram"></i></a></li>
+      
+      <li class="list-inline-item"><a href="#"><i class="ti-github"></i></a></li>
+      
+      <li class="list-inline-item"><a href="#"><i class="ti-linkedin"></i></a></li>
+      
+    </ul>
+  </div>
+  
+  <div class="widget">
+    <img src="/images/promotion.png" alt="" class="img-fluid">
+  </div>
+</div>
+
+      
+
+      
+      <div class="col-12 mt-5">
+        
+
+
+      </div>
     </div>
-</main>
+  </div>
+</section>
 
 
 
-
-        <footer class="site-footer outer">
-            <div class="site-footer-content inner">
-                <section class="copyright"><a href="/">My New Hugo Site</a> &copy; 2015</section>
-                <nav class="site-footer-nav">
-                    <a href="/">Latest Posts</a>
-                    
-                    
-                    
-                    <a href="https://jonathanjanssens.com" target="_blank" rel="noopener" style="opacity: 0.5;">Hugo Casper3 by Jonathan Janssens</a>
-                </nav>
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>Join Our Newsletter</h2>
+        <p class="text-light px-md-5 py-4 border-left border-right border-primary">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
+        <form action="#" class="row justify-content-center">
+          <div class="input-group col-md-8">
+            <input type="text" class="form-control" placeholder="Your Email Address">
+            <div class="input-group-append">
+              <button class="input-group-text btn btn-primary">Subscribe</button>
             </div>
-        </footer>
-
+          </div>
+        </form>
+      </div>
     </div>
+  </div>
+</section>
 
-</body>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <a href="/"><img src="/images/logo.png" alt="Liva | Personal blog template"></a>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark" href="tel:0124857985320"><i
+                class="ti-mobile mr-3 text-primary"></i>0124857985320</a></li>
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Dhaka, Bangladedsh</li>
+          <li class="mb-3"><a class="text-dark" href="mailto:demo@email.com"><i
+                class="ti-email mr-3 text-primary"></i>demo@email.com</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="#">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/android-and-gmaing">Android and gmaing</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/go-language">Go language</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/html">Html</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/html-css">Html css</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/programming-language">Programming language</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/python">Python</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/r">R</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/web-design">Web design</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2020 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/plugins/slick/slick.min.js"></script>
+
+<script src="/plugins/venobox/venobox.min.js"></script>
+
+<script src="/plugins/search/fuse.min.js"></script>
+
+<script src="/plugins/search/mark.js"></script>
+
+<script src="/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="/js/script.min.js"></script>
+<!-- google analitycs -->
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'Your ID', 'auto');
+  ga('send', 'pageview');
+</script></body>
 </html>
