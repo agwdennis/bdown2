@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html><head>
-<title>What is the Geostrategy of Kazakhstan?</title>
+<title>Posts</title>
 
 <meta charset="utf-8">
 <meta name="X-UA-Compatible" content="IE=edge">
 <meta name="google-site-verification" content="">
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
 <meta content="telephone=no" name="format-detection">
-<meta name="description" content="You have a to-do list that scrolls on for days. You are managing multiple projects, getting lots of email and messages on different messaging systems, managing finances and personal health habits and so much more.">
+<meta name="description" content="">
 <meta name="renderer" content="webkit">
 <meta name="theme-color" content="#ffffff">
 
@@ -28,9 +28,6 @@
 
 
 
-<link rel="stylesheet" href="/scss/dark-mode.min.b13808e7c98cd5aa981a3822fd3421e26f1015876bb15a3fbf8ed5991c382367.css" integrity="sha256-sTgI58mM1aqYGjgi/TQh4m8QFYdrsVo/v47VmRw4I2c=" media="screen">
-
-
 <script src="//js/loadCSS.js"></script>
 <script>
   loadCSS("https://fonts.googleapis.com/css?family=Lora|Montserrat|Fira+Mono|Noto+Serif+SC|Material+Icons");
@@ -41,27 +38,13 @@
 
 
 
-<script src="//js/toc.js"></script>
-
-
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-<script src="/vendor/js/md5.min.js"></script>
-<script>
-  var gitalk = new Gitalk({
-  clientID: 'your client id',
-  clientSecret: 'your client secret',
-  repo: 'repo name',
-  owner: 'user',
-  admin: ['user'],
-  id: md5(location.pathname),
-  distractionFreeMode: 'false'
-  });
-  window.onload = function () {
-        gitalk.render('gitalk-container')
+<style>
+  .toc{
+    display: none !important;
   }
-</script>
+</style>
+
+
 
 
 
@@ -95,7 +78,7 @@
             
             
             
-            <a class="a-block nav-link-item active" href="/posts">
+            <a class="a-block nav-link-item active" href="/post">
                 Articles
             </a>
             
@@ -107,26 +90,6 @@
             
             <a class="a-block nav-link-item false" href="/categories">
                 Categories
-            </a>
-            
-        
-            
-            
-            
-            
-            
-            <a class="a-block nav-link-item false" href="/tags">
-                Tags
-            </a>
-            
-        
-            
-            
-            
-            
-            
-            <a class="a-block nav-link-item false" href="/index.xml">
-                RSS Feed
             </a>
             
         
@@ -151,11 +114,6 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
 </div><div ref="extraContainer" class="extra-container">
     
     
-    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
-
-
-</div>
-    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
@@ -163,14 +121,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
             </i>
         </a>
         
-        <a class="pagination-action" v-on:click="toggleDarkMode">
-            <i class="material-icons pagination-action-icon" v-if="isDarkMode">
-                brightness_4
-            </i>
-            <i class="material-icons pagination-action-icon" v-else="isDarkMode">
-                brightness_7
-            </i>
-        </a>
+        
         
         
     </div>
@@ -188,7 +139,7 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 
                 
                 
-                <a class="a-block drawer-menu-item active" href="/posts">
+                <a class="a-block drawer-menu-item active" href="/post">
                     Articles
                 </a>
                 
@@ -203,31 +154,6 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
                 </a>
                 
             
-                
-                
-                
-                
-                
-                <a class="a-block drawer-menu-item false" href="/tags">
-                    Tags
-                </a>
-                
-            
-                
-                
-                
-                
-                
-                <a class="a-block drawer-menu-item false" href="/index.xml">
-                    RSS Feed
-                </a>
-                
-            
-            
-            <div class="toc">
-
-
-</div>
             
         </div>
     </div>
@@ -247,15 +173,6 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
             AGWD
         </a>
         
-        <button type="button" class="nav-darkmode-toggle" v-on:click="toggleDarkMode">
-            <i class="material-icons" v-if="isDarkMode">
-                brightness_4
-            </i>
-            <i class="material-icons" v-else="isDarkMode">
-                brightness_7
-            </i>
-        </button>
-        
     </div>
 </nav>
 <div class="single-column-header-container" ref="pageHead"
@@ -271,87 +188,221 @@ Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopene
             <div id="content">
 <div ref="streamContainer" class="stream-container">
     <div class="post-list-container post-list-container-shadow">
-        <div class="post">
-            
-            
-            
-                
-            
-
-            <div class="post-head-wrapper"
-                
-                    
-                    
-                    style="background-image: url('/images/notebook.jpg')"
-                    
-                
-            >
-                <div class="post-title">
-                    What is the Geostrategy of Kazakhstan?
-                    
-                    <div class="post-subtitle">
-                        You have a to-do list that scrolls on for days. You are managing multiple projects, getting lots of email and messages on different messaging systems, managing finances and personal health habits and so much more.
-                    </div>
-                    
-                    <div class="post-meta">
-                        
-
-                        
-                            <i class="material-icons" style="">folder</i>
-                                <a href="/categories/strategy">Strategy</a>
-                                &nbsp;
-                        
-
-                        
-                            <i class="material-icons" style="">label</i>
-                            
-                                <a href="/tags/primer">Primer</a>
-                                &nbsp;
-                            
-                                <a href="/tags/todo">todo</a>
-                                &nbsp;
-                            
-                        
-                        
+        
+            <a class="a-block">
+                <div class="post-item-wrapper post-item-wrapper-no-hover">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title post-item-title-small year">
+                                2020
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
             
-            <div class="post-body-wrapper">
-                <div class="post-body">
-                    <p>What is the Geostrategy of Kazakhstan? Well, first we have to start with its problems.</p>
+            <a href="/posts/geostr-turk/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                What is the Geostrategy of Turkey?
+                            </div>
+                            <div class="post-item-meta">
+    2020-01-03
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+</div>
 
-                    
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </a>
             
-            
-            <nav class="post-pagination">
+            <a href="/posts/geostr-sing/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                What is the Geostrategy of Singapore?
+                            </div>
+                            <div class="post-item-meta">
+    2020-01-02
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+</div>
 
-                
-                <a class="newer-posts" href="/post/2015-07-23-r-rmarkdown/">
-			Next<br>Hello R Markdown
-                </a>
-                
-                
-                
-                <a class="older-posts">
-			Previous<br>No older posts.
-                </a>
-                
-            </nav>
-            <div class="post-comment-wrapper">
-                
-                <p style="opacity: 0.6" align="center">
-                    <small>Comments Disabled.</small>
-                </p>
-                
-            </div>
-        </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="/posts/geostr-kaz/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                What is the Geostrategy of Kazakhstan?
+                            </div>
+                            <div class="post-item-meta">
+    2020-01-01
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="/posts/geostr-chi/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                What is the Geostrategy of China?
+                            </div>
+                            <div class="post-item-meta">
+    2020-01-01
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+        
+            <a class="a-block">
+                <div class="post-item-wrapper post-item-wrapper-no-hover">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title post-item-title-small year">
+                                2019
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="/posts/geostr-chi-copy/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                China &amp; Its Economy
+                            </div>
+                            <div class="post-item-meta">
+    2019-11-14
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+        
+            <a class="a-block">
+                <div class="post-item-wrapper post-item-wrapper-no-hover">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title post-item-title-small year">
+                                2018
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="/posts/post-1/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                (example post)
+                            </div>
+                            <div class="post-item-meta">
+    2018-03-18
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+        
+            <a class="a-block">
+                <div class="post-item-wrapper post-item-wrapper-no-hover">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title post-item-title-small year">
+                                0001
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="/posts/geostr-jap/" class="a-block">
+                <div class="post-item-wrapper">
+                    <div class="post-item post-item-no-gaps">
+                        <div class="post-item-info-wrapper">
+                            <div class="post-item-title">
+                                What is the Geostrategy of Japan?
+                            </div>
+                            <div class="post-item-meta">
+    0001-01-01
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+        
     </div>
 </div>
 
-            </div><div id="single-column-footer">
+
+            </div>
+
+
+<div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://amazingrise.net">Rise</a>
 <br>
 Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>

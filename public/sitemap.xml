@@ -13,7 +13,7 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>/posts/</loc>
     <lastmod>2020-01-03T12:00:05-04:00</lastmod>
   </url>
   
@@ -23,7 +23,7 @@
   </url>
   
   <url>
-    <loc>/posts/chapter-6/</loc>
+    <loc>/posts/geostr-turk/</loc>
     <lastmod>2020-01-03T12:00:05-04:00</lastmod>
   </url>
   
@@ -33,43 +33,18 @@
   </url>
   
   <url>
+    <loc>/posts/geostr-chi/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/geostr-kaz/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/chinese/</loc>
+    <loc>/posts/geostr-chi-copy/</loc>
     <lastmod>2019-11-14T11:25:05-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/chinese/</loc>
-    <lastmod>2019-11-14T11:25:05-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-11-14T11:25:05-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/text/</loc>
-    <lastmod>2019-11-14T11:25:05-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/chinese/</loc>
-    <lastmod>2019-11-14T11:25:05-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/typography/</loc>
-    <lastmod>2018-03-18T12:13:38+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/post-5/</loc>
-    <lastmod>2018-03-18T12:13:38+05:30</lastmod>
   </url>
   
   <url>
@@ -79,6 +54,11 @@
   
   <url>
     <loc>/tags/primer/</loc>
+    <lastmod>2018-03-18T02:01:58+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2018-03-18T02:01:58+05:30</lastmod>
   </url>
   
@@ -93,28 +73,7 @@
   </url>
   
   <url>
-    <loc>/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/posts/geostr-jap/</loc>
   </url>
   
 </urlset>
