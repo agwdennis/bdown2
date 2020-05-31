@@ -8,4 +8,3 @@ title: 'What is the Geostrategy of Turkey?'
 ---
 
 A state with some of the most advantageous geography going.
-
