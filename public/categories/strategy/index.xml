@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Strategy on AGWD</title>
+    <link>/categories/strategy/</link>
+    <description>Recent content in Strategy on AGWD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This is a customized copyright.</copyright>
+    
+	<atom:link href="/categories/strategy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What is the Geostrategy of Kazakhstan?</title>
+      <link>/posts/geostr-kaz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/geostr-kaz/</guid>
+      <description>What is the Geostrategy of Kazakhstan? Well, first we have to start with its problems.</description>
+    </item>
+    
+  </channel>
+</rss>
