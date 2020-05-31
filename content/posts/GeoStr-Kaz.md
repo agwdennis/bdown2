@@ -2,13 +2,9 @@
 categories: Strategy
 comment: false
 date: "01/01/2020"
-description: You have a to-do list that scrolls on for days. You are managing multiple
-  projects, getting lots of email and messages on different messaging systems, managing
-  finances and personal health habits and so much more.
+description: Kazakhstan. A new country seeking to forge its own identity, separate from the yoke of the Soviet Union. Presented with unique geopolitical, geoeconommic, & geostrategic challenges, they must charter a careful course.
 featured_image: /images/notebook.jpg
 tags:
-- Primer
-- todo
 title: What is the Geostrategy of Kazakhstan?
 ---
 
