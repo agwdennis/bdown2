@@ -7,10 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This is a customized copyright.</copyright>
-    <lastBuildDate>Thu, 14 Nov 2019 11:25:05 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What is the Geostrategy of Singapore?</title>
+      <link>/posts/geostr-sing/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/geostr-sing/</guid>
+      <description>One can break the issue into three&amp;hellip;.
+ Geoeconomics Geostrategy Geopolitics  Geoeconomics Geostrategy Geopolitics </description>
+    </item>
+    
+    <item>
+      <title>What is the Geostrategy of Kazakhstan?</title>
+      <link>/posts/geostr-kaz/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/geostr-kaz/</guid>
+      <description>What is the Geostrategy of Kazakhstan? Well, first we have to start with its problems.</description>
+    </item>
     
     <item>
       <title>中文文本测试</title>
@@ -34,7 +53,7 @@ Heading 1 Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et 
     </item>
     
     <item>
-      <title>(No comment) When You Have Too Much to Do</title>
+      <title>(example post)</title>
       <link>/posts/post-1/</link>
       <pubDate>Sun, 18 Mar 2018 02:01:58 +0530</pubDate>
       
@@ -54,16 +73,6 @@ How do you keep up with it all? How do you find focus and peace and get stuff ac
     </item>
     
     <item>
-      <title>Chapter I: The Grand Hall</title>
-      <link>/posts/chapter-1/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
-      
-      <guid>/posts/chapter-1/</guid>
-      <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
-The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
-    </item>
-    
-    <item>
       <title>Hello R Markdown</title>
       <link>/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
@@ -72,15 +81,6 @@ The sixth of January, 1482, is not, however, a day of which history has preserve
       <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
-    </item>
-    
-    <item>
-      <title>What is the Geostrategy of Kazakhstan?</title>
-      <link>/posts/geostr-kaz/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/geostr-kaz/</guid>
-      <description>What is the Geostrategy of Kazakhstan? Well, first we have to start with its problems.</description>
     </item>
     
   </channel>
