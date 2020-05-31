@@ -37,14 +37,15 @@ disableDarkMode = true
 url = "/categories"
 name = "Categories"
 weight = 2
-[[menu.main]]
-url = "/tags"
-name = "Tags"
-weight = 3
+#[[menu.main]]
+#url = "/tags"
+#name = "Tags"
+#weight = 3
 [[menu.main]]
 url = "/post"
 name = "Articles"
 weight = 1
+
 #[[menu.main]]
 #url = "/index.xml"
 #name = "RSS Feed"

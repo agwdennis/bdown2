@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This is a customized copyright.</copyright>
-    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jan 2020 12:00:05 -0400</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Strategy</title>
       <link>/categories/strategy/</link>
-      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Jan 2020 12:00:05 -0400</pubDate>
       
       <guid>/categories/strategy/</guid>
       <description></description>
@@ -36,15 +36,6 @@
       <pubDate>Sun, 18 Mar 2018 02:01:58 +0530</pubDate>
       
       <guid>/categories/todo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Story</title>
-      <link>/categories/story/</link>
-      <pubDate>Fri, 14 Apr 2017 11:25:05 -0400</pubDate>
-      
-      <guid>/categories/story/</guid>
       <description></description>
     </item>
     
