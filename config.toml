@@ -2,7 +2,7 @@ baseURL = "http://example.org/"
 DefaultContentLanguage = "en" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "en-us"
 title = "AGWD"
-copyright = "This is a customized copyright."
+copyright = "Copywright of AGWD"
 theme = "hugo-theme-diary"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 # googleAnalytics = "UA-123-45"
@@ -20,9 +20,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     tabWidth = 4
 
 [params]
-subtitle = "Strategy. Explained."
-enableGitalk = false
-disableDarkMode = true 
+  subtitle = "Strategy. Explained."
+  enableGitalk = false
+  disableDarkMode = true 
+  favicon = public/favicon.ico
 
 [params.gitalk]
   owner = "user"
